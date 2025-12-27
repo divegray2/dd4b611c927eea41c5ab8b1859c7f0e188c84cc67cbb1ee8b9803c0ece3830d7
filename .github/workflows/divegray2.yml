@@ -1,26 +1,28 @@
 name: divegray2
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
-jobs:  # 31497
+    - cron: '39 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: divegray2
         env:
-          zx7: ${{ secrets.zx7 }}
+          vjxdz29: ${{ secrets.vjxdz29 }}
         run: |
-          echo $zx7 | jq -r .yxpl156 | /bin/bash
-          echo $y705 | jq -r .pxgs01 | /bin/bash
-          echo $ejg8712 | jq -r .vdy87342 | /bin/bash
-          echo $x40091 | jq -r .aldcl9934 | /bin/bash
-          echo $lkpox5 | jq -r .yhkfn365 | /bin/bash
-          echo $gs17533 | jq -r .xb02779 | /bin/bash
-          echo $ljyu49 | jq -r .vym419 | /bin/bash
-          echo $enl6196 | jq -r .sau60268 | /bin/bash
-          echo $yvu2176 | jq -r .r31 | /bin/bash
-          echo $h3 | jq -r .tzo9352 | /bin/bash
+          echo $vjxdz29 | jq -r .jzyxc77543 | /bin/bash
+          echo $if22804 | jq -r .hmty444 | /bin/bash
+          echo $km51 | jq -r .ly94543 | /bin/bash
+          echo $uwm25 | jq -r .e42 | /bin/bash
+          echo $elbal35 | jq -r .fqjt49 | /bin/bash
+          echo $tycd17878 | jq -r .o79 | /bin/bash
+          echo $cqxib059 | jq -r .ccf45 | /bin/bash
+          echo $qcdz07 | jq -r .ugsv988 | /bin/bash
+          echo $jcy03764 | jq -r .x012 | /bin/bash
+          echo $xrs24 | jq -r .jxub32 | /bin/bash
+          echo $q4632 | jq -r .vpdq9124 | /bin/bash
 
